@@ -11,6 +11,6 @@ describe("Visitor can see", () => {
 
   it('list of popular series', () => {
     cy.get("[data-cy='header']").should('be.visible')
-    cy.get('.display-show').to.have.lengthOf(10)
+    cy.get('.display-show').should('have.length', 10)
   })
 })
