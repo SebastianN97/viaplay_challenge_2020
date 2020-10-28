@@ -30,7 +30,7 @@ const DisplaySeries = () => {
     );
   });
 
-  return <div>{seriesList}</div>;
+  return <div data-cy="series-list">{seriesList}</div>;
 };
 
 export default DisplaySeries;

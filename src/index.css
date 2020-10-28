@@ -1,9 +1,8 @@
 .display-show {
   display: inline-block;
   width: 23%;
-  width: calc(25% - ( ( 20px ) * 0.75 ) );
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin-right: 2px;
+  margin-bottom: 2px;
 }
 
 .display-show:nth-child(4n+4) {
@@ -11,17 +10,23 @@
 }
 
 .display-show img {
-  width: 100%;
+  width: 90%;
   height: auto;
 }
 
 .header {
   background-color: black;
   width: 100%;
-  position: fixed;
+  position: absolute;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  position: absolute;
 }
 
 .header img {
-  width: 20%;
+  width: 15%;
   padding-left: 10%;
 }
