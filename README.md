@@ -1,7 +1,7 @@
 ## Viaplay Challenge 2020
 
 
-<img src="../pictures/image.png" alt="">
+![Screenshot_footer](pictures/image.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
