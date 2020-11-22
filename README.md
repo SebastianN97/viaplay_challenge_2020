@@ -1,7 +1,81 @@
-## Viaplay Challenge 2020
 
+# The Viaplay Challenge:
+
+The challenge was to replicate a given website, Viaplay. The applications purpose was to send a request to an api and be able to display the top 10 series of the time to the visitor. 
+
+
+## Dev:
+
+- Sebastian Niewiadomski.
+
+## Project Links:
+
+- [User](https://github.com/grconnor/viaplay_exam)
+
+## Built with
+
+React v.16.13.1 </br>
+**Testing framework:** Cypress
+
+## Getting started
+
+### Dependencies
+
+- Yarn
+- React
+- Cypress
+
+### Necessary steps:
+
+```
+$ yarn install
+```
+
+### Start Cypress for integration testing:
+
+```
+$ yarn cy:open
+```
+
+### Compile and deploy the application locally:
+
+```
+$ yarn start:silent
+```
+
+### User Stories
+
+```
+As a User
+In order to know the top 10 series,
+I would like to see the 10 series displayed.
+```
+
+```
+As a series api
+In order for the user to see the series,
+I would like to provide a list of the top 10 series.
+```
+
+### Examples:
+
+The API is located at:
+
+```
+https://content.viaplay.se/pc-se/serier/samtliga
+```
+
+### Presentation of the challenge:
 
 ![Screenshot_footer](pictures/image.png)
+
+
+### Dependencies
+
+* Cypress https://www.cypress.io/
+* Source 'https://rubygems.org'
+
+---
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
